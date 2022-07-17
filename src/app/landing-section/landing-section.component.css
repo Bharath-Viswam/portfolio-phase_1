@@ -1,0 +1,12 @@
+.backg{
+    background:url('./assets/images/anas-alshanti-feXpdV001o4-unsplash.jpg');
+    background-size:cover;
+    height: 533px;
+    width: 1365px;
+
+}
+.insi1{
+    font-size: large;
+    color: white;
+    word-spacing: 2px;
+}

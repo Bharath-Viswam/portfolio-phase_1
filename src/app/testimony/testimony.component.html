@@ -1,0 +1,43 @@
+<h1> CSS only Testimonials Slider</h1>
+<div class="container">
+    <input type="radio" name="nav" id="first" checked />
+    <input type="radio" name="nav" id="second" />
+    <input type="radio" name="nav" id="third" />
+
+    <label for="first" class="first"></label>
+    <label for="second" class="second"></label>
+    <label for="third" class="third"></label>
+
+    <div class="one slide" *ngFor="let i of testimonies">
+        <blockquote>
+            <span class="leftq quotes">&ldquo;</span>{{testimonies[0]}} <span class="rightq quotes">&bdquo; </span>
+        </blockquote>
+        <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/c42.42.528.528/s160x160/226993_610582175623076_610183119_n.jpg"
+            width="150" height="150" />
+        <h2>fff</h2>
+        <h6>Founder & Lead Developer, <a href="http://www.codetic.net">Codetic</a></h6>
+    </div>
+
+    <!-- <div class="two slide">
+        <blockquote>
+            <span class="leftq quotes">&ldquo;</span><span class="rightq quotes">&bdquo;
+            </span>
+        </blockquote>
+        <img src="http://behance.vo.llnwd.net/profiles14/297668/projects/3041537/f4d6311b432c4804f1c8045459df9647.jpg"
+            width="170" height="130" />
+        <h2>John Doe</h2>
+        <h6>Developer Relations at Woof Studios</h6>
+    </div>
+
+    <div class="three slide">
+        <blockquote>
+            <span class="quotes leftq"> &ldquo;</span> <span class="rightq quotes">&bdquo; </span>
+        </blockquote>
+        <img src="http://media.digitalcameraworld.com/files/2012/10/People_photography_composition_tips_PHG18.chap4_.n_p38_39.jpg"
+            width="170" height="130" />
+        <h2>Steve Stevenson</h2>
+        <h6>CEO Woof Web Design Studios</h6>
+    </div> -->
+
+
+</div>
